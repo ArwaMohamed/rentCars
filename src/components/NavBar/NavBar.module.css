@@ -1,0 +1,11 @@
+.navTrans{
+    background-color: transparent !important;
+}
+.signIn ,.signIn:hover{
+    background-color: transparent;
+    border-color: transparent;
+    color: #000;
+}
+.navLink{
+    color: black !important;
+}

@@ -1,0 +1,15 @@
+.chooseUs {
+    height: 100vh;
+    background-image: url(/src/assets/imges/landing-page/sec-5/Vector.png);
+    background-position-x: left;
+    background-position-y: top;
+    background-size: 44%;
+    background-repeat: no-repeat;
+  }
+  .popularBtn {
+    margin-top: 20%;
+    background-color: #1572d31a;
+    color: #0b5ed7;
+    border: 1px solid #1572d31a;
+    padding: 5px 20px;
+  }

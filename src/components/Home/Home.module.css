@@ -1,0 +1,65 @@
+.homeContainer {
+  background-image: url(../../assets/imges/landing-page/Frame.png);
+  background-position-x: right;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+.info {
+  width: 22%;
+}
+.headerSpan {
+  color: #1572d3;
+}
+.carImage {
+  max-width: 100%;
+  animation-duration: 2s;
+  animation-name: carAnimated;
+}
+.popularBtn {
+  background-color: #1572d31a;
+  color: #0b5ed7;
+  border: 1px solid #1572d31a;
+  padding: 5px 20px;
+}
+.dealCard {
+  width: 200px;
+}
+.chooseUs {
+  background-image: url(../../assets/imges/landing-page/sec-5/Vector.png);
+  background-position-x: left;
+  background-position-y: center;
+  background-size: 55%;
+  background-repeat: no-repeat;
+}
+.card {
+  max-width: 540px;
+}
+.cardBody {
+  padding: 1rem;
+}
+.contactUs {
+  height: 2.3em;
+  border: 1px solid #cedcff;
+  border-radius: 15px;
+  background-color: #cedcff;
+  min-width: 200px;
+}
+.mobileImg {
+  max-width: 80%;
+  max-height: 80%;
+}
+.link{ 
+  color: #4E4E4E;
+  text-decoration: none;
+
+}
+@keyframes carAnimated {
+  0% {
+    display: none;
+    max-width: 20%;
+  }
+  100% {
+    display: inline;
+    max-width: 100%;
+  }
+}

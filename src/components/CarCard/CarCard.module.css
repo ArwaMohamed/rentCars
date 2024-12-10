@@ -1,0 +1,35 @@
+.cardCustom {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.carImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 250px;
+    height: 180px;
+    margin: auto;
+    padding: 10% 2%;
+}
+.card-body {
+    text-align: center;
+}
+.rating {
+    font-weight: 700;
+}
+.cardDetails {
+    font-size: 0.9rem;
+    color: #6c757d;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+.price {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.rentNowBtn {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #1572d3;
+}
